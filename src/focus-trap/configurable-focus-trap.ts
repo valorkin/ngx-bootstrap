@@ -54,13 +54,13 @@ export class ConfigurableFocusTrap extends FocusTrap implements ManagedFocusTrap
     super.destroy();
   }
 
-  /** @common-docs-private Implemented as part of ManagedFocusTrap. */
+  /** @docs-private Implemented as part of ManagedFocusTrap. */
   _enable() {
     this._inertStrategy.preventFocus(this);
     this.toggleAnchors(true);
   }
 
-  /** @common-docs-private Implemented as part of ManagedFocusTrap. */
+  /** @docs-private Implemented as part of ManagedFocusTrap. */
   _disable() {
     this._inertStrategy.allowFocus(this);
     this.toggleAnchors(false);

@@ -5,10 +5,10 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 /* common */
 // import { AppFooterComponent } from '../common/app-footer/app-footer.component';
-// import { AddNavComponent } from '../common/add-nav/add-nav.component';
+// import { AddNavComponent } from '@ngx-bootstrap-doc-section/add-nav';
 // import { SidebarComponent } from '../common/sidebar/sidebar.component';
 // import { SearchFilterPipe } from '../common/sidebar/search-filter.pipe';
-/* common-docs */
+/* docs */
 import { DemoSectionComponent } from './demo-section/demo-section.component';
 import { ContentSection } from './models/content-section.model';
 import {

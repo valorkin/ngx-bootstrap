@@ -6,7 +6,7 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": ["node"],
+    "types": [],
     "lib": [
       "dom",
       "es2018"
@@ -22,7 +22,6 @@
     "**/*.spec.ts"
   ],
   "include": [
-    "./typings.d.ts",
     "**/*.ts"
   ]
 }

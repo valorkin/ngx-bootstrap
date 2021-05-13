@@ -9,7 +9,7 @@ import { Analytics } from '../analytics/analytics';
 import { ClassDesc, DirectiveDesc, InputDesc, MethodDesc, NgApiDoc, PropertyDesc, signature } from '../api-docs.model';
 
 /**
- * Displays the API common-docs of a directive.
+ * Displays the API docs of a directive.
  *
  * The default values of its inputs are looked for in the directive api doc itself, or in the matching property
  * of associated Config service, if any.
@@ -38,7 +38,7 @@ export class NgApiDocComponent {
 
   constructor(analytics: Analytics, docs: NgApiDoc, content: ComponentApi) {
     this.analytics = analytics;
-    // todo: inject common-docs
+    // todo: inject docs
     this.docs = docs;
 
     this.headerAnchor = content.anchor;

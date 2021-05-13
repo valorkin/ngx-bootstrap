@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'ngx-bootstrap-common-docs',
+  displayName: 'ngx-bootstrap-docs',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -14,7 +14,7 @@ module.exports = {
       },
     },
   },
-  coverageDirectory: '../../coverage/apps/ngx-bootstrap-common-docs',
+  coverageDirectory: '../../coverage/apps/ngx-bootstrap-docs',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',

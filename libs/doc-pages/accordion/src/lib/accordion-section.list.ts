@@ -12,7 +12,6 @@ import { DemoAccordionStylingComponent } from './demos/styling/styling';
 
 import { ContentSection } from '@ngx-bootstrap-doc/docs';
 import { DemoTopSectionComponent } from '@ngx-bootstrap-doc/docs';
-// import { DemoTopSectionComponent, DEMO_TOP_SECTION_TOKEN } from '@ngx-bootstrap-common-docs/app/common-docs/demo-section-components/demo-top-section/demo-top-section.component';
 
 import { ExamplesComponent } from '@ngx-bootstrap-doc/docs';
 import { ApiSectionsComponent } from '@ngx-bootstrap-doc/docs';

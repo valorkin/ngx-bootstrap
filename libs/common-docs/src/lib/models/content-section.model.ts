@@ -5,9 +5,9 @@ import { ComponentsTopSection } from './components-top-section.model';
 
 @Injectable()
 export class ContentSection {
-  name: string | undefined;
-  anchor: string | undefined;
+  name?: string;
+  anchor?: string;
   outlet: any;
   description?: string;
-  content: ComponentExample[] | ComponentApi[] | ComponentsTopSection | undefined;
+  content?: ComponentExample[] | ComponentApi[] | ComponentsTopSection;
 }

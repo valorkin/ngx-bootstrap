@@ -1,7 +1,7 @@
 module.exports = {
   setupFilesAfterEnv: ['<rootDir>/scripts/jest/toHaveCssClass.ts'],
   projects: [
-    '<rootDir>/apps/ngx-bootstrap-common-docs',
+    '<rootDir>/apps/ngx-bootstrap-docs',
     '<rootDir>/src/utils',
     '<rootDir>/src/positioning',
     '<rootDir>/src/component-loader',
@@ -44,6 +44,7 @@ module.exports = {
     '<rootDir>/libs/doc-pages/tabs',
     '<rootDir>/libs/doc-pages/timepicker',
     '<rootDir>/libs/doc-pages/tooltip',
-    '<rootDir>/libs/doc-pages/typeahead'
+    '<rootDir>/libs/doc-pages/typeahead',
+    '<rootDir>/libs/doc-sections/add-nav'
   ]
 };

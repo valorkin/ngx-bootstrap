@@ -71,6 +71,9 @@
       ],
       "@ngx-bootstrap-doc/typeahead": [
         "libs/doc-pages/typeahead/src/index.ts"
+      ],
+      "@ngx-bootstrap-doc-section/add-nav": [
+        "libs/doc-sections/add-nav/src/index.ts"
       ]
     }
   },

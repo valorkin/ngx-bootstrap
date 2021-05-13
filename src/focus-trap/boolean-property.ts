@@ -10,7 +10,7 @@
 
 /**
  * Type describing the allowed values for a boolean input.
- * @common-docs-private
+ * @docs-private
  */
 export type BooleanInput = string | boolean | null | undefined;
 
