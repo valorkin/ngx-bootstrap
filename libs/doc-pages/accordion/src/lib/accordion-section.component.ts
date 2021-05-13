@@ -3,8 +3,6 @@
 
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { demoComponentContent } from './accordion-section.list';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import { ContentSection } from '@ngx-bootstrap-doc/docs';
 
 // webpack html imports

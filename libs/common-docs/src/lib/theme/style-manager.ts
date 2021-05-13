@@ -39,7 +39,7 @@ function getLinkElementForKey(key: string) {
 
 function getExistingLinkElementByKey(key: string) {
   if (!document.head) {
-    return;
+    return undefined;
   }
 
   return document.head.querySelector(`link[rel="stylesheet"].${getClassNameForKey(key)}`);
@@ -51,7 +51,7 @@ function createLinkElementWithKey(key: string) {
   linkEl.classList.add(getClassNameForKey(key));
 
   if (!document.head) {
-    return;
+    return undefined;
   }
 
   document.head.appendChild(linkEl);

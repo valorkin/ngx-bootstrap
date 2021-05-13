@@ -13,9 +13,6 @@ export function getTagName(code: string): string | null {
   }
   return null;
 }
-
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 export function getTemplateFileName(code: string): string | null {
   const matches = code.match(/templateUrl: '.+'/);
   if (matches) {

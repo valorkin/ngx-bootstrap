@@ -1,7 +1,7 @@
 import { Component, Inject, Input } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
-import { ContentSection } from '@ngx-bootstrap-doc/docs';
+import { ContentSection } from '../../models/content-section.model';
 
 @Component({
   selector: 'add-nav',

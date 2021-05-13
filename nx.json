@@ -253,18 +253,8 @@
       "tags": [],
       "implicitDependencies": [
         "accordion",
-        "alert",
-        "carousel",
-        "component-loader",
-        "locale",
-        "progressbar",
-        "timepicker",
-        "tooltip",
-        "dropdown",
-        "modal",
-        "popover",
-        "typeahead",
-        "datepicker"
+        "common-docs",
+        "collapse"
       ]
     },
     "common-docs": {
@@ -277,33 +267,25 @@
     "doc-pages-alerts": {
       "tags": [],
       "implicitDependencies": [
-        "alert",
-        "utils",
-        "tabs"
+        "alert"
       ]
     },
     "doc-pages-buttons": {
       "tags": [],
       "implicitDependencies": [
-        "buttons",
-        "utils",
-        "tabs"
+        "buttons"
       ]
     },
     "doc-pages-carousel": {
       "tags": [],
       "implicitDependencies": [
-        "carousel",
-        "utils",
-        "tabs"
+        "carousel"
       ]
     },
     "doc-pages-collapse": {
       "tags": [],
       "implicitDependencies": [
-        "collapse",
-        "utils",
-        "tabs"
+        "collapse"
       ]
     },
     "doc-pages-datepicker": {
@@ -315,16 +297,12 @@
         "tooltip",
         "positioning",
         "component-loader",
-        "utils",
-        "locale",
-        "tabs"
+        "locale"
       ]
     },
     "doc-pages-dropdown": {
       "tags": [],
       "implicitDependencies": [
-        "utils",
-        "tabs",
         "dropdown",
         "positioning",
         "component-loader"
@@ -334,8 +312,6 @@
       "tags": [],
       "implicitDependencies": [
         "modal",
-        "utils",
-        "tabs",
         "positioning",
         "focus-trap",
         "component-loader",
@@ -346,17 +322,13 @@
     "doc-pages-pagination": {
       "tags": [],
       "implicitDependencies": [
-        "pagination",
-        "utils",
-        "tabs"
+        "pagination"
       ]
     },
     "doc-pages-popover": {
       "tags": [],
       "implicitDependencies": [
         "popover",
-        "utils",
-        "tabs",
         "positioning",
         "component-loader"
       ]
@@ -364,40 +336,31 @@
     "doc-pages-progressbar": {
       "tags": [],
       "implicitDependencies": [
-        "progressbar",
-        "utils",
-        "tabs"
+        "progressbar"
       ]
     },
     "doc-pages-rating": {
       "tags": [],
       "implicitDependencies": [
-        "rating",
-        "utils",
-        "tabs"
+        "rating"
       ]
     },
     "doc-pages-sortable": {
       "tags": [],
       "implicitDependencies": [
-        "sortable",
-        "utils",
-        "tabs"
+        "sortable"
       ]
     },
     "doc-pages-tabs": {
       "tags": [],
       "implicitDependencies": [
-        "tabs",
-        "utils"
+        "tabs"
       ]
     },
     "doc-pages-timepicker": {
       "tags": [],
       "implicitDependencies": [
         "timepicker",
-        "tabs",
-        "utils",
         "mini-ngrx"
       ]
     },
@@ -406,27 +369,15 @@
       "implicitDependencies": [
         "tooltip",
         "positioning",
-        "component-loader",
-        "utils",
-        "tabs"
+        "component-loader"
       ]
     },
     "doc-pages-typeahead": {
       "tags": [],
       "implicitDependencies": [
-        "utils",
-        "tabs",
         "typeahead",
         "positioning",
         "component-loader"
-      ]
-    },
-    "doc-sections-add-nav": {
-      "tags": [],
-      "implicitDependencies": [
-        "utils",
-        "tabs",
-        "common-docs"
       ]
     }
   }

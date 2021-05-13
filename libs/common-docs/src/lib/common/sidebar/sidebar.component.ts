@@ -3,7 +3,7 @@ import { Component, Inject, OnDestroy, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
 import { isBs3, setTheme } from 'ngx-bootstrap/utils';
-import { routes } from '../../app.routing';
+import { routes } from './app.routing';
 import { StyleManager } from '../../theme/style-manager';
 import { ThemeStorage } from '../../theme/theme-storage';
 

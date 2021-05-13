@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { LandingComponent } from './common/landing/landing.component';
-import { DocumentationComponent } from './common/documentation/documentation.component';
-import { DiscoverComponent } from './common/discover/discover.component';
+import { LandingComponent } from '@ngx-bootstrap-doc/docs';
+import { DocumentationComponent } from '@ngx-bootstrap-doc/docs';
+import { DiscoverComponent } from '@ngx-bootstrap-doc/docs';
 
 export const routes: Routes = [
   {

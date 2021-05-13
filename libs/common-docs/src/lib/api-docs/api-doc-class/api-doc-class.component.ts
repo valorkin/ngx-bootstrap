@@ -30,8 +30,6 @@ export class NgApiDocClassComponent {
     this.analytics = analytics;
 
     this.headerAnchor = content.anchor;
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     this.apiDocs = this.docs[content.title];
   }
 

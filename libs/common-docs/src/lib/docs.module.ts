@@ -4,10 +4,10 @@ import { RouterModule } from '@angular/router';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 /* common */
-// import { AppFooterComponent } from '../common/app-footer/app-footer.component';
-// import { AddNavComponent } from '@ngx-bootstrap-doc-section/add-nav';
-// import { SidebarComponent } from '../common/sidebar/sidebar.component';
-// import { SearchFilterPipe } from '../common/sidebar/search-filter.pipe';
+import { AppFooterComponent } from './common/app-footer/app-footer.component';
+import { AddNavComponent } from './common/add-nav/add-nav.component';
+import { SidebarComponent } from './common/sidebar/sidebar.component';
+import { SearchFilterPipe } from './common/sidebar/search-filter.pipe';
 /* docs */
 import { DemoSectionComponent } from './demo-section/demo-section.component';
 import { ContentSection } from './models/content-section.model';
@@ -15,21 +15,10 @@ import {
   DemoTopSectionComponent,
   DemoTopSectionComponentModule
 } from './demo-section-components/demo-top-section/index';
-import {
-  ExamplesComponent,
-  ExamplesComponentModule
-} from './demo-section-components/demo-examples-section/index';
-import {
-  ApiSectionsComponent,
-  ApiSectionsComponentModule
-} from './demo-section-components/demo-api-section/index';
+import { ExamplesComponent, ExamplesComponentModule } from './demo-section-components/demo-examples-section/index';
+import { ApiSectionsComponent, ApiSectionsComponentModule } from './demo-section-components/demo-api-section/index';
 import { DocsSectionComponent } from './docs-section/docs-section.component';
-import {
-  NgApiDocModule,
-  NgApiDocComponent,
-  NgApiDocClassComponent,
-  NgApiDocConfigComponent
-} from './api-docs/index';
+import { NgApiDocClassComponent, NgApiDocComponent, NgApiDocConfigComponent, NgApiDocModule } from './api-docs/index';
 import { SampleBoxComponent } from './api-docs/sample-box/sample-box.component';
 /* export */
 export {
@@ -51,15 +40,25 @@ export { DemoTopSectionComponent } from './demo-section-components/demo-top-sect
 export { DocsSectionComponent } from './docs-section/docs-section.component';
 export { SampleBoxComponent } from './api-docs/sample-box/sample-box.component';
 export { ContentSection } from './models/content-section.model';
+export { AppFooterComponent } from './common/app-footer/app-footer.component';
+export { AddNavComponent } from './common/add-nav/add-nav.component';
+export { SidebarComponent } from './common/sidebar/sidebar.component';
+export { SearchFilterPipe } from './common/sidebar/search-filter.pipe';
+export { LandingComponent } from './common/landing/landing.component';
+export { DocumentationComponent } from './common/documentation/documentation.component';
+export { DiscoverComponent } from './common/discover/discover.component';
+
+
+export { NgApiDoc } from './api-docs/api-docs.model';
 
 
 @NgModule({
   declarations: [
     DemoSectionComponent,
-    // SidebarComponent,
-    // AppFooterComponent,
-    // SearchFilterPipe,
-    // AddNavComponent,
+    SidebarComponent,
+    AppFooterComponent,
+    SearchFilterPipe,
+    AddNavComponent,
     DocsSectionComponent
   ],
   imports: [
@@ -73,10 +72,10 @@ export { ContentSection } from './models/content-section.model';
     RouterModule
   ],
   exports: [
-    // SearchFilterPipe,
-    // SidebarComponent,
-    // AppFooterComponent,
-    // AddNavComponent,
+    SearchFilterPipe,
+    SidebarComponent,
+    AppFooterComponent,
+    AddNavComponent,
     DemoSectionComponent,
     ExamplesComponentModule,
     ApiSectionsComponentModule,

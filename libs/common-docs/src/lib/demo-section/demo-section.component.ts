@@ -6,10 +6,10 @@ import { Component, Input } from '@angular/core';
   templateUrl: './demo-section.component.html'
 })
 export class DemoSectionComponent {
-  @Input() name: string | undefined;
-  @Input() src: string | undefined;
-  @Input() html: string | undefined;
-  @Input() ts: string | undefined;
+  @Input() name: string;
+  @Input() src: string;
+  @Input() html: string;
+  @Input() ts: string;
 
   @Input() componentContent: unknown;
 }

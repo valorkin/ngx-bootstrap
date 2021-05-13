@@ -22,8 +22,6 @@ export class ExamplesComponent {
   constructor(public section: ContentSection, private route: ActivatedRoute) {
     this.examples = section.content as ComponentExample[];
     this.moduleData = this.route.snapshot.data && this.route.snapshot.data[1];
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     this.moduleData.moduleRoute = this.route.snapshot['_routerState'].url;
   }
 
@@ -107,12 +105,8 @@ export class ExamplesComponent {
         template: 'angular-cli'
       };
       if (className === 'DemoDatepickerDateCustomClassesComponent') {
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
         project.files['app/date-custom-classes.scss'] = getCSSCodeDatepickerCustomClass();
       }
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       project.files[`app/${templateName}`] = this.getHtml(html);
 
       sdk.openProject(project);

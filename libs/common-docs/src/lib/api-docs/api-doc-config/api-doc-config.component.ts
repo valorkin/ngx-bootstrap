@@ -37,8 +37,6 @@ export class NgApiDocConfigComponent {
     this.docs = docs;
 
     this.headerAnchor = content.anchor;
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     this.apiDocs = this.docs[content.title];
     this.isShowMethods = content.showMethods || this.isShowMethods;
     this.directiveName = content.title?.slice(0, -CONFIG_SUFFIX_LENGTH);
